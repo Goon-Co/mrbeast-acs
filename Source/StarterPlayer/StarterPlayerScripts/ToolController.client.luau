@@ -1,0 +1,2 @@
+-- MrBeast Combat Framework; Tool Controller
+-- (C) Goon & Co, 2024; licensed under CC0 1.0 Universal

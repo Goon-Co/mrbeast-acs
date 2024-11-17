@@ -1,6 +1,10 @@
-# Project place file
-/mrbeast-acs.rbxlx
+# Project place files
+/*.rbxl
+/*rbxlx
 
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
+
+# Rojo Sourcemap
+/sourcemap.json
