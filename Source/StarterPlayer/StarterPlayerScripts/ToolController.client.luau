@@ -6,13 +6,13 @@ local Player = game.Players.LocalPlayer -- Rarely nil, should be fine
 local CurrentCharacter: Model = Player.Character or Player.CharacterAdded:Wait() -- Safety
 
 CurrentCharacter.ChildAdded:Connect(function(Object)
-    if Object.ClassName == "Tool" then
-        local Tool: Tool = Object
-        local HasMCF = Tool:HasTag("MCFWeapon")
-        if HasMCF then
-        print("[MCF] ToolController: Found new weapon "..Tool.Name)
-        end
-    end
+	if Object.ClassName == "Tool" then
+		local Tool: Tool = Object
+		local HasMCF = Tool:HasTag("MCFWeapon")
+		if HasMCF then
+			print("[MCF] ToolController: Found new weapon " .. Tool.Name)
+		end
+	end
 end)
 
 print("[MCF] ToolController successfully initalized!")
