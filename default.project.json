@@ -6,6 +6,9 @@
     "ReplicatedStorage": {
       "MCFShared": {
         "$path": "Source/ReplicatedStorage"
+      },
+      "MCFAssets": {
+        "$path": "Assets/MCFAssets.rbxmx"
       }
     },
 

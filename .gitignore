@@ -8,3 +8,6 @@
 
 # Rojo Sourcemap
 /sourcemap.json
+
+# Asset Compilation
+/Assets/*.rbxmx
